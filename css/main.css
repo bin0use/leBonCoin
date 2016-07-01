@@ -70,3 +70,17 @@ strong {
     display: none;
 }
 
+.region_selector_mobile {
+    display: block;
+    text-align: center;
+}
+
+.edito {
+    width: 80%;
+    text-align: center;
+}
+
+.edito_img {
+    width: 80%;
+    margin: auto;
+}
