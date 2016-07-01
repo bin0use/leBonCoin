@@ -19,7 +19,7 @@ header button {
     margin-left: 8px;
     font-size: 14px;
     border: none;
-    border-radius: 10%;
+    border-radius: 5px;
     padding: 12px 12px;
     background-color: #fff;
     color: #f56b2a;
@@ -46,3 +46,27 @@ strong {
 .deposit_research_buttons {
     text-align: center;
 }
+
+.deposit_research_buttons button {
+    font-weight: bold;
+    padding: 12px 20px;
+    width: 320px;
+    border-radius: 5px;
+}
+
+.deposit_button {
+    background-color: #4183d7;
+    color: #fff;
+    border: none;
+}
+
+.research_button {
+    background-color: #fff;
+    color: #4183d7;
+    border: thin solid #4183d7;
+}
+
+.region_selector_desktop {
+    display: none;
+}
+
