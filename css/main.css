@@ -78,12 +78,22 @@ h1 {
     background-color: #4183d7;
     color: #fff;
     border: none;
+    transition: 300ms;
+}
+
+.deposit_button:hover {
+    background-color: #4c94ef;
 }
 
 .research_button {
     background-color: #fff;
     color: #4183d7;
     border: thin solid #4183d7;
+    transition: 300ms;
+}
+
+.research_button:hover {
+    background-color: #d9e6f7;
 }
 
 .map img {
