@@ -42,3 +42,7 @@ p {
 strong {
     color: #f56b2a;
 }
+
+.deposit_research_buttons {
+    text-align: center;
+}
