@@ -67,6 +67,11 @@ h1 {
     border: thin solid #4183d7;
 }
 
+.map img {
+    display: block;
+    margin: auto;
+}
+
 .region_selector_desktop {
     display: none;
 }
