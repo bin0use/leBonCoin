@@ -14,9 +14,12 @@ header {
     height: 50px;
     line-height: 50px;
     white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header button {
+.nav_menu {
     margin-left: 8px;
     font-size: 14px;
     border: none;
@@ -26,6 +29,10 @@ header button {
     color: #f56b2a;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.signin {
+    visibility: hidden;
 }
 
 .logo {
