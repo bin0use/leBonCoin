@@ -15,6 +15,18 @@ header {
     white-space: nowrap;
 }
 
+header button {
+    margin-left: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10%;
+    padding: 12px 12px;
+    background-color: #fff;
+    color: #f56b2a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .logo {
     height: 25px;
 }
