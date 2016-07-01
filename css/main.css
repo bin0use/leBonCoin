@@ -44,6 +44,7 @@ header {
 h1 {
     text-align: center;
     font-size: 14px;
+    margin: 20px auto;
 }
 
 .orange {
@@ -53,6 +54,10 @@ h1 {
 
 .deposit_research_buttons {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
 .deposit_research_buttons button {
@@ -60,6 +65,7 @@ h1 {
     padding: 12px 20px;
     width: 320px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .deposit_button {
@@ -86,6 +92,7 @@ h1 {
 .region_selector_mobile {
     display: block;
     text-align: center;
+    margin: 20px auto;
 }
 
 .edito {
@@ -98,6 +105,9 @@ h1 {
 
 .edito p {
     text-align: center;
+    margin: 15px auto;
+    font-weight: 600;
+    font-size: 13px;
 }
 
 .edito_img {
