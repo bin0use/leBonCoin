@@ -30,3 +30,15 @@ header button {
 .logo {
     height: 25px;
 }
+
+
+/**********Main content**************/
+
+p {
+    font-weight: bold;
+    text-align: center;
+}
+
+strong {
+    color: #f56b2a;
+}
