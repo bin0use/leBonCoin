@@ -29,6 +29,12 @@ header {
     color: #f56b2a;
     text-transform: uppercase;
     font-weight: bold;
+    transition: 300ms;
+}
+
+.nav_menu:hover{
+    background-color: #ccc;
+    color: #3873bd;    
 }
 
 .signin {
