@@ -111,8 +111,16 @@ h1 {
     margin: 20px auto;
 }
 
+.region_selector_mobile select {
+    background-color: #fff;
+    width: 95%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .edito {
-    width: 80%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
