@@ -4,6 +4,7 @@
 
 * {
     margin: 0;
+    font-family: sans-serif;
 }
 
 /**********Header********************/
@@ -33,14 +34,14 @@ header button {
 
 
 /**********Main content**************/
-
-p {
-    font-weight: bold;
+h1 {
     text-align: center;
+    font-size: 14px;
 }
 
-strong {
+.orange {
     color: #f56b2a;
+    font-weight: bold;
 }
 
 .deposit_research_buttons {
@@ -77,10 +78,42 @@ strong {
 
 .edito {
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.edito p {
     text-align: center;
 }
 
 .edito_img {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+}
+
+/**********Footer********************/
+
+footer {
+    background-color: #474747;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    text-align: left; 
+    color: #fff;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.social_links {
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.social_links img {
+    width: 24px;
 }
