@@ -163,3 +163,21 @@ footer p {
 .social_links img {
     width: 24px;
 }
+
+
+/************************************/
+/********Site: Tablet****************/
+/************************************/
+
+
+/**********Main content**************/
+
+@media screen and (min-width: 800px) {   
+    .h1 .deposit_research_buttons .edito {
+        float: left;
+    }
+
+    .map {
+        float: right;
+    }
+}
