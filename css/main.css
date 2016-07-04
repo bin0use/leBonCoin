@@ -47,6 +47,12 @@ header {
 
 
 /**********Main content**************/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
     text-align: center;
     font-size: 14px;
@@ -60,10 +66,11 @@ h1 {
 
 .deposit_research_buttons {
     text-align: center;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 15px;
+    order: 1;
 }
 
 .deposit_research_buttons button {
@@ -96,6 +103,10 @@ h1 {
     background-color: #d9e6f7;
 }
 
+.map {
+    order: 2;
+}
+
 .map img {
     display: block;
     margin: auto;
@@ -109,6 +120,8 @@ h1 {
     display: block;
     text-align: center;
     margin: 20px auto;
+    width: 95%;
+    order: 3;
 }
 
 .region_selector_mobile select {
@@ -125,6 +138,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     margin: auto;
+    order: 4;
 }
 
 .edito p {
@@ -173,11 +187,4 @@ footer p {
 /**********Main content**************/
 
 @media screen and (min-width: 800px) {   
-    .h1 .deposit_research_buttons .edito {
-        float: left;
-    }
-
-    .map {
-        float: right;
-    }
 }
