@@ -191,4 +191,12 @@ footer p {
 /**********Main content**************/
 
 @media screen and (min-width: 800px) {   
+    .edito_img_mobile {
+        display: none;
+    }
+
+    .edito_img {
+        display: block;
+        width: 100%;
+    }
 }
