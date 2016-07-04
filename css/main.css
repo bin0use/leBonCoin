@@ -149,6 +149,10 @@ h1 {
 }
 
 .edito_img {
+    display: none;
+}
+
+.edito_img_mobile {
     width: 100%;
 }
 
