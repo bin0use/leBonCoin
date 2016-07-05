@@ -2,12 +2,18 @@
 /********Site: Mobile****************/
 /************************************/
 
+
 * {
     margin: 0;
     font-family: sans-serif;
 }
 
+
+
+
+
 /**********Header********************/
+
 
 header {
     background-color: #f56b2a;
@@ -18,6 +24,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
 
 .nav_menu {
     margin-left: 8px;
@@ -32,26 +39,36 @@ header {
     transition: 300ms;
 }
 
+
 .nav_menu:hover{
     background-color: #ccc;
     color: #3873bd;    
 }
 
+
 .signin {
     visibility: hidden;
 }
+
 
 .logo {
     height: 25px;
 }
 
 
+
+
+
+
 /**********Main content**************/
+
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 h1 {
     text-align: center;
@@ -59,10 +76,12 @@ h1 {
     margin: 20px auto;
 }
 
+
 .orange {
     color: #f56b2a;
     font-weight: bold;
 }
+
 
 .deposit_research_buttons {
     text-align: center;
@@ -73,6 +92,7 @@ h1 {
     order: 1;
 }
 
+
 .deposit_research_buttons button {
     font-weight: bold;
     padding: 12px 20px;
@@ -81,6 +101,7 @@ h1 {
     margin-bottom: 10px;
 }
 
+
 .deposit_button {
     background-color: #4183d7;
     color: #fff;
@@ -88,9 +109,11 @@ h1 {
     transition: 300ms;
 }
 
+
 .deposit_button:hover {
     background-color: #4c94ef;
 }
+
 
 .research_button {
     background-color: #fff;
@@ -99,22 +122,27 @@ h1 {
     transition: 300ms;
 }
 
+
 .research_button:hover {
     background-color: #d9e6f7;
 }
 
+
 .map {
     order: 2;
 }
+
 
 .map img {
     display: block;
     margin: auto;
 }
 
+
 .region_selector_desktop {
     display: none;
 }
+
 
 .region_selector_mobile {
     display: block;
@@ -124,6 +152,7 @@ h1 {
     order: 3;
 }
 
+
 .region_selector_mobile select {
     background-color: #fff;
     width: 95%;
@@ -131,6 +160,7 @@ h1 {
     font-weight: bold;
     font-size: 20px;
 }
+
 
 .edito {
     width: 95%;
@@ -141,6 +171,7 @@ h1 {
     order: 4;
 }
 
+
 .edito p {
     text-align: center;
     margin: 15px auto;
@@ -148,15 +179,22 @@ h1 {
     font-size: 13px;
 }
 
+
 .edito_img {
     display: none;
 }
+
 
 .edito_img_mobile {
     width: 100%;
 }
 
+
+
+
+
 /**********Footer********************/
+
 
 footer {
     background-color: #474747;
@@ -164,6 +202,7 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
 
 footer p {
     text-align: left; 
@@ -173,14 +212,22 @@ footer p {
     margin-top: 20px;
 }
 
+
 .social_links {
     margin-right: 5px;
     margin-top: 20px;
 }
 
+
 .social_links img {
     width: 24px;
 }
+
+
+
+
+
+
 
 
 /************************************/
@@ -189,6 +236,7 @@ footer p {
 
 
 /**********Main content**************/
+
 
 @media screen and (min-width: 800px) {   
     .edito_img_mobile {
