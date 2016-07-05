@@ -282,10 +282,34 @@ footer p {
 
     .footerFlex {
         display: flex;
+        margin: 5%;
     }   
 
 
     .footerCol {
         width: 25%;
+    }
+
+
+    h2 {
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #fff;
+        border-bottom: 1px solid #aaa;
+        margin-right: 10px;
+    }
+
+
+    .partenaires {
+        border: 1px solid  #aaa;
+        border-left: none;
+        border-right: none;
+        margin: 5px;
+    }
+
+
+    .partenaires p {
+        text-align: center;
+        margin: 5px;
     }
 }
